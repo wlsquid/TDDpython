@@ -1,2 +1,4 @@
 env/
 flaskTDD.egg-info/
+.pytest_cache/
+__pycache__/
