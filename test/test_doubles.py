@@ -15,7 +15,22 @@ class DocTestDouble:
     def __init__(self, sent, ents):
         self.ents = [SpanTestDouble(ent['text'], ent['label_']) for ent in ents]
 
-class SpanTestDouble:
-    def __init__(self, text, label):
-        self.text = text
-        self.label_ = label
+# class SpanTestDouble:
+#     def __init__(self, text, label):
+#         self.text = text
+#         self.label_ = label
+
+# class NerHtmlTestDouble:
+#     def __init__(self, displacy):
+#         self.displacy = displacy
+
+#     def returns_ents_html(self, html):
+#         self.html = html
+
+#     def __call__(self, sent):
+#         return HTMLTestDouble(sent, self.html)
+
+# class HTMLtestdouble:
+#     def __init__(self, sent, html):
+#         self.html = 
+
